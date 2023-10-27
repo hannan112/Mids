@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+}
+
+#mainBody {
+    text-align: center;
+}
+
+.ToDocontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#toDoInput{
+    font-size: 15px;
+    padding: 10px 5px;
+}
+
+.todo-item span {
+    text-decoration: line-through;
+}
+
+
